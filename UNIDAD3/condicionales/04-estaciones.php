@@ -61,6 +61,7 @@ $colorFondo = obtenerColorFondo();
     </style>
 </head>
 <body>
+    <a href="">Enlace al repositorio</a>
     <h1>Imagen cabecera</h1>
     <img src="<?= $imagenCabecera ?>" alt=""> <!-- imagen de cabecera -->
 </body>

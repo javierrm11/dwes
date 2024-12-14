@@ -34,6 +34,7 @@ if($lProcesaFormulario){
     <title>Document</title>
 </head>
 <body>
+    <a href="">Enlace al repositorio</a>
     <?php
     if($lProcesaFormulario){
         // Mostrar

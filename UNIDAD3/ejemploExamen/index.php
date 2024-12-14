@@ -1,4 +1,15 @@
 <?php
+/**
+ *  Haz un formulario con los siguientes campos:
+ * - Nombre (requerido)
+ * - E-mail (requerido)
+ *  - URL (requerido)
+ * - Comentarios
+ * - Género (requerido)
+ * - Coches (requerido)
+ * - Vehículos (requerido)
+ * @author Javier Ruiz Molero
+ */
 //Incluimos el archivo de configuracion con los array
 include "./config/config.php";
 //Incluimos archivo que contiene las funciones del proyecto
@@ -88,6 +99,7 @@ if($eValidacion){
     </style>
 </head>
 <body>
+    <a href="">Enlace al repositorio</a>
     <h1>Validacion Formulario</h1>
     <p class="error">* campos requeridos</p>
     <form action="" method="POST">

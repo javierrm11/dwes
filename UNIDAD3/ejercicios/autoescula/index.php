@@ -1,7 +1,7 @@
 <?php
 /**
-* Paso 1:  Array con las preguntas
-* Paso 2: Array con las respuestas
+* Haz un formulario con preguntas de un examen de conducir.
+* @author Javier Ruiz Molero
 */
 require "./conf.php/config.php";
 $lProcesaFormulario = false;
@@ -53,6 +53,7 @@ if($lProcesaFormulario){
     <title>Document</title>
 </head>
 <body>
+    <a href="">Enlace al repositorio</a>
     <h1>Test Examen Coche</h1>
     <form action="" method="post">
         <?php

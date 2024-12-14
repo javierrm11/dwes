@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Enunciado:
  * 2. Indexar los ejercicios mediante un array.
@@ -28,7 +29,8 @@ $ejercicios = [
 ];
 
 // Función para mostrar los enlaces a los ejercicios
-function mostrarEjercicios($carpeta, $archivos) {
+function mostrarEjercicios($carpeta, $archivos)
+{
     foreach ($archivos as $subcarpeta => $archivo) {
         if (is_array($archivo)) {
             // Si es una subcarpeta (array), agregamos la carpeta actual a la ruta
@@ -44,31 +46,34 @@ function mostrarEjercicios($carpeta, $archivos) {
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Índice de Ejercicios</title>
     <style>
-        h1{
+        h1 {
             font-size: 2rem;
             font-family: monospace;
         }
     </style>
 </head>
+
 <body>
+    <a href="">Enlace al repositorio</a>
+    <h1>Índice de Ejercicios</h1>
 
-<h1>Índice de Ejercicios</h1>
-
-<ul>
-    <?php
-    // Mostrar enlaces a los archivos dentro de arrays
-    foreach ($ejercicios as $carpeta => $archivos) {
-        echo "<h2>$carpeta</h2><ul>";
-        mostrarEjercicios($carpeta, $archivos);
-        echo "</ul>";
-    }
-    ?>
-</ul>
+    <ul>
+        <?php
+        // Mostrar enlaces a los archivos dentro de arrays
+        foreach ($ejercicios as $carpeta => $archivos) {
+            echo "<h2>$carpeta</h2><ul>";
+            mostrarEjercicios($carpeta, $archivos);
+            echo "</ul>";
+        }
+        ?>
+    </ul>
 
 </body>
+
 </html>

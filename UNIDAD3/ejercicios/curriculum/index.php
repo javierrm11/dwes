@@ -3,6 +3,7 @@
  * Formulario para crear un currículum que incluya: Campos de texto, grupo de
  * botones de opción, casilla de verificación, lista de selección única, lista de
  * selección múltiple, botón de validación, botón de imagen, botón de reset, etc.
+ * @author Javier Ruiz Molero
 */
 
 $lProcesaFormulario = false;
@@ -53,6 +54,7 @@ if($lProcesaFormulario){
     <title>Document</title>
 </head>
 <body>
+    <a href="">Enlace al repositorio</a>
     <h1>Curriculum</h1>
     <?php
     if($lProcesaFormulario){ ?>
