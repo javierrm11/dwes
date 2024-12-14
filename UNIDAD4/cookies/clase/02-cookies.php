@@ -55,7 +55,7 @@ if($dCookies){
     <title>Document</title>
 </head>
 <body>
-    <a href="">Enlace a repositorio</a>
+    <a href="https://github.com/javierrm11/dwes/blob/main/UNIDAD4/cookies/clase/02-cookies.php">Enlace a repositorio</a>
     <h1>Registro</h1>
     <?php
     // Mostrar datos

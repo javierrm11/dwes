@@ -36,4 +36,4 @@ if ($a <= $b && $a <= $c) {
     }
 }
 ?>
-<a href="">Enlace al repositorio</a>
+<a href="https://github.com/javierrm11/dwes/blob/main/UNIDAD3/condicionales/01-Practicas.php">Enlace al repositorio</a>

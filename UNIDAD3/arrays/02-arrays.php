@@ -60,7 +60,7 @@ function mostrarEjercicios($carpeta, $archivos)
 </head>
 
 <body>
-    <a href="">Enlace al repositorio</a>
+    <a href="https://github.com/javierrm11/dwes/blob/main/UNIDAD3/arrays/02-arrays.php">Enlace al repositorio</a>
     <h1>Índice de Ejercicios</h1>
 
     <ul>

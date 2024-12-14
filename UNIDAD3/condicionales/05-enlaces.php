@@ -25,4 +25,4 @@ if ($perfil == "Administrador") {
     echo "Perfil no válido.";
 }
 ?>
-<a href="">Enlace al repositorio</a>
+<a href="https://github.com/javierrm11/dwes/blob/main/UNIDAD3/condicionales/05-enlaces.php">Enlace al repositorio</a>

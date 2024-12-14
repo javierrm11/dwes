@@ -94,7 +94,7 @@ if (isset($_POST["pedirCarta"])) {
 </head>
 
 <body>
-    <a href="">Enlace a repositorio</a>
+    <a href="https://github.com/javierrm11/dwes/tree/main/UNIDAD4/Ruiz_Molero_Javier_Examen">Enlace a repositorio</a>
     <h1>Blackjack (21)</h1>
     <a href="cerrarSesion.php">CerrarSesion</a>
     <div>

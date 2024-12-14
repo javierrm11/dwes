@@ -71,7 +71,7 @@ if ($numeroAdivinar > 0) {
 </head>
 
 <body>
-    <a href="">Enlace a repositorio</a>
+    <a href="https://github.com/javierrm11/dwes/blob/main/UNIDAD4/cookies/clase/ejemplo.php">Enlace a repositorio</a>
     <h1>Tablas de Multiplicar del 1 al 10</h1>
     <form action="" method="post">
         <label for="">Cuantos numeros quieres adivinar</label>

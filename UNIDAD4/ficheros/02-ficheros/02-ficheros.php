@@ -69,7 +69,7 @@ if (isset($_POST["anadir"])) {
     <title>Galería de Imágenes</title>
 </head>
 <body>
-    <a href="">Enlace a repositorio</a>
+    <a href="https://github.com/javierrm11/dwes/tree/main/UNIDAD4/ficheros/02-ficheros">Enlace a repositorio</a>
     <h1>Galería de imágenes</h1>
     <h3>Añadir imagen</h3>
     <form action="" method="post" enctype="multipart/form-data">

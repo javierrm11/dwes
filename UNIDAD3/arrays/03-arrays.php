@@ -31,7 +31,7 @@ $nombreSeleccionado = $nombresAlumnos[$indiceAleatorio];
     <title>Document</title>
 </head>
 <body>
-    <a href="">Enlace al repositorio</a>
+    <a href="https://github.com/javierrm11/dwes/blob/main/UNIDAD3/arrays/03-arrays.php">Enlace al repositorio</a>
     <h1>Alumno seleccionado aleatoriamente</h1>
     <p class="nombre"><?= $nombreSeleccionado ?></p>
 </body>

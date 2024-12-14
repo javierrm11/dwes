@@ -78,7 +78,7 @@ if (isset($_POST["calcularSuma"])) {
     </style>
 </head>
 <body>
-    <a href="">Enlace al repositorio</a>
+    <a href="https://github.com/javierrm11/dwes/blob/main/UNIDAD3/formularios/04-formularios.php">Enlace al repositorio</a>
     <h1>SUMA DE NÚMEROS</h1>
 
     <?php

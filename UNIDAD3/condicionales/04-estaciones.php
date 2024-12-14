@@ -61,7 +61,7 @@ $colorFondo = obtenerColorFondo();
     </style>
 </head>
 <body>
-    <a href="">Enlace al repositorio</a>
+    <a href="https://github.com/javierrm11/dwes/blob/main/UNIDAD3/condicionales/04-estaciones.php">Enlace al repositorio</a>
     <h1>Imagen cabecera</h1>
     <img src="<?= $imagenCabecera ?>" alt=""> <!-- imagen de cabecera -->
 </body>

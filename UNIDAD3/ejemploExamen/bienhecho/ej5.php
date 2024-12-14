@@ -1,8 +1,7 @@
 <?php
 /**
  * Crear y validar un formulario, teniendo arrays de los que salen los campos
- * @author = Raul Bermudez Gonzalez
- * @date = 14-11-2024
+ * @author Javier Ruiz Molero
  */
 
 // Incluimos archivo de configuracion con los arrays y el archivo con las funciones
@@ -120,6 +119,7 @@ if($errorValidacion){
         </style>
     </head>
     <body>
+        <a href="https://github.com/javierrm11/dwes/tree/main/UNIDAD3/ejemploExamen/bienhecho">Enlace al repositorio</a>
         <h1>Validación Formularios</h1>
         <?php
             /*Proceso el formulario y muestro los datos */

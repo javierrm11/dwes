@@ -19,7 +19,7 @@ if (!isset($_SESSION["carrito"])) {
     <title>Inicio - Pizzería</title>
 </head>
 <body>
-    <a href="">Enlace a repositorio</a>
+    <a href="https://github.com/javierrm11/dwes/tree/main/UNIDAD4/repasoExamen/02-pizeria">Enlace a repositorio</a>
     <header>
         <nav>
             <a href="./views/viewPizzas.php">Pizzas</a>

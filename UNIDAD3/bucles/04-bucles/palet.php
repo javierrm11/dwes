@@ -32,7 +32,7 @@
     </style>
 </head>
 <body>
-    <a href="">Enlace al repositorio</a>
+    <a href="https://github.com/javierrm11/dwes/tree/main/UNIDAD3/bucles/04-bucles">Enlace al repositorio</a>
     <h1>Paleta de colores con degradado vertical</h1>
     <table>
     <?php

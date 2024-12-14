@@ -72,7 +72,7 @@ if(!$error){
     <title>Document</title>
 </head>
 <body>
-    <a href="">Enlace a repositorio</a>
+    <a href="https://github.com/javierrm11/dwes/tree/main/UNIDAD4/autentificacion/01-autentificacion">Enlace a repositorio</a>
     <h1>AUTENTIFICACION</h1>
     <p>Informacion Publica</p>
     <?php
