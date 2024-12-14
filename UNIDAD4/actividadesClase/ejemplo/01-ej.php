@@ -52,13 +52,13 @@ if ($lProcesaFormulario){
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head></head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ejercicio 3 - Cookies</title>
     </head>
     <body>
-        <a href="">Enlace a repositorio</a>
+        <a href="https://github.com/javierrm11/dwes/tree/main/UNIDAD4/actividadesClase/ejemplo">Enlace a repositorio</a>
         <!-- Creación del formulario -->
         <?php
         if ($lProcesaFormulario){
