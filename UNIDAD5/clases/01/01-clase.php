@@ -1,7 +1,7 @@
 <?php
 /**
  * Explicación clases
- * @author javier
+ * @author Javier Ruiz Molero
  */
 
 // Clase Persona

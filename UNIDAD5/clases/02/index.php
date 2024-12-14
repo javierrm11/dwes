@@ -2,6 +2,7 @@
 
 /**
  * Probar clase contador
+ * @author Javier Ruiz Molero
  */
 
 require_once "Contador.php";

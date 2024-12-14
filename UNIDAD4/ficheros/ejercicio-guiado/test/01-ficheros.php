@@ -1,4 +1,17 @@
 <?
+/**
+ * 1. Crear un formulario que permita subir un fichero al servidor.
+ * 2. El formulario debe tener los siguientes campos:
+ *     - Un campo de selección con los grupos de la ETSIIT (2020/2021, 2021/2022, 2022/2023, 2023/2024, 2024/2025)
+ *    - Un campo de selección con los cursos de DAW (1º DAW, 2º DAW)
+ *   - Un campo de selección con los sistemas operativos (Linux, MySql)ç
+ *  - Un campo de tipo file para seleccionar el fichero a subir
+ * - Un botón de envío
+ * 3. El formulario debe enviar los datos a un script PHP que se encargará de subir el fichero al servidor.
+ * 4. El script PHP debe comprobar que el fichero se ha subido correctamente y mostrar un mensaje de éxito o error.
+ * 5. El fichero subido debe guardarse en una carpeta llamada "uploads" en la raíz del proyecto.
+ * @author Javier Ruiz Molero
+ */
 
 
 $grupos = [

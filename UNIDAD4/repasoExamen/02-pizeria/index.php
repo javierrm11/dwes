@@ -1,7 +1,7 @@
 <?php
 /**
- * pizeria
- * @author javier
+ * Pizzería
+ * @author Javier Ruiz Molero
  */
 session_start();
 

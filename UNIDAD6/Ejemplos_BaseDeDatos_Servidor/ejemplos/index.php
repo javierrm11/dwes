@@ -1,7 +1,7 @@
 <?php
 /**
- * 
- * 
+ * haz una página que muestre un listado de perros y un formulario para añadir perros
+ * @author Javier Ruiz Molero
  * 
  */
 

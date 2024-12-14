@@ -1,8 +1,7 @@
 <?php
 /**
  * Añadir un formulario de login y passsword y casilla de verificacion
- * @author = Raúl Bermúdez González
- * @date = 17-10-2024
+ * @author Javier Ruiz Molero
  */
 // Inicializacion de variables
 $usuario = "";

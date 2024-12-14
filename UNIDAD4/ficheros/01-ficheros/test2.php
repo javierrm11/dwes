@@ -4,7 +4,7 @@
  * 
  * Test para comprobar el manejo del fichero de texto
  * 
- * @author 
+ * @author Javier Ruiz Molero
  * 
  */
 

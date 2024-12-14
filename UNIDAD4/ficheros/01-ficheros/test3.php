@@ -1,4 +1,8 @@
 <?php
+/**
+ * Haz un formulario que permita seleccionar un grupo, un formato y un curso.
+ * @author Javier Ruiz Molero
+ */
 $mActual = date("m");
 $aActual = date("Y");
 

@@ -1,4 +1,8 @@
 <?php
+/**
+ * Juego de cartas Blackjack
+ * @author Javier Ruiz Molero
+ */
 // iniciar sesion
 session_start();
 

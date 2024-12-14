@@ -1,3 +1,9 @@
+<?php
+/**
+ * Introducion con variables
+ * @author Javier Ruiz Molero
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

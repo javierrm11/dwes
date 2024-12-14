@@ -1,4 +1,8 @@
 <?php
+/**
+ * Haz un programa que permita buscar perros por su nombre.
+ * @author Javier Ruiz Molero
+ */
 session_start();
 if(!isset($_SESSION["usuario"])){
     $_SESSION["usuario"] = [];

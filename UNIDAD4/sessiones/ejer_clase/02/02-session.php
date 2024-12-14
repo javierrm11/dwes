@@ -1,6 +1,7 @@
 <?php
 /**
  * Agenda de contactos con uso de sessiones
+ * @author Javier Ruiz Molero
  */
 
 // iniciamos session

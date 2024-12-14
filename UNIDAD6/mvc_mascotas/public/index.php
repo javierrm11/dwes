@@ -1,4 +1,8 @@
 <?php
+/**
+ * Haz una página que muestre un listado de perros. Cada perro tendrá un nombre, un peso y una raza.
+ * @author Javier Ruiz Molero
+ */
 
 use App\Models\Perro;
 

@@ -1,4 +1,8 @@
 <?php
+/**
+ * Haz un programa que cree un objeto de la clase Perro y otro de la clase Persona.
+ * @author Javier Ruiz Molero
+ */
 require_once "../vendor/autoload.php";
 
 

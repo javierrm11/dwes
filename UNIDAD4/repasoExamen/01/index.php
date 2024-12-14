@@ -1,4 +1,18 @@
 <?php
+/**
+ * 1. Crear un formulario de login con los campos nombre de usuario y contraseña.
+ * 2. Validar los campos del formulario.
+ * 3. Crear un array con los usuarios y contraseñas válidos.
+ * 4. Comprobar que el usuario y la contraseña introducidos en el formulario coinciden con los almacenados en el array.
+ * 5. Si los datos son correctos, iniciar sesión y redirigir a una página de tareas.
+ * 6. Si los datos no son correctos, mostrar un mensaje de error.
+ * 7. Crear una página de tareas con un listado de tareas.
+ * 8. Crear un formulario para añadir tareas.
+ * 9. Crear un formulario para editar tareas.
+ * 10. Crear un formulario para borrar tareas.
+ * 11. Crear un botón para cerrar sesión.
+ * @author Javier Ruiz Molero
+ */
 // iniciar sesion
 session_start();
 

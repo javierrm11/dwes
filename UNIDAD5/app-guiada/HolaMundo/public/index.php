@@ -1,4 +1,8 @@
 <?php
+/**
+ * Haz un programa que muestre un mensaje de bienvenida en la página principal y un mensaje de despedida
+ * @author Javier Ruiz Molero
+ */
 require_once "../app/Config/config.php";
 require_once "../vendor/autoload.php";
 
