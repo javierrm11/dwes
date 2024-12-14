@@ -19,6 +19,7 @@ if (!isset($_SESSION["carrito"])) {
     <title>Inicio - Pizzería</title>
 </head>
 <body>
+    <a href="">Enlace a repositorio</a>
     <header>
         <nav>
             <a href="./views/viewPizzas.php">Pizzas</a>

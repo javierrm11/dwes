@@ -42,6 +42,7 @@ if(!$error){
     <title>Document</title>
 </head>
 <body>
+    <a href="">Enlace a repositorio</a>
     <h1>Agenda contactos</h1>
     <a href="cerrarsesion.php">Cerrar sesion</a>
     <form action="" method="post">

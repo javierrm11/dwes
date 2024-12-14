@@ -72,6 +72,7 @@ if(!$error){
     <title>Document</title>
 </head>
 <body>
+    <a href="">Enlace a repositorio</a>
     <h1>AUTENTIFICACION</h1>
     <p>Informacion Publica</p>
     <?php

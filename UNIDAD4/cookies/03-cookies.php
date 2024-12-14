@@ -49,6 +49,7 @@ if(isset($_POST["eliminarRecordar"])){
     <title>Document</title>
 </head>
 <body>
+    <a href="">Enlace a repositorio</a>
     <?php
     if($lProcesaFormulario){
         echo "<h2>Nombre de Usuario: $usuario</h2>";

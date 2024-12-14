@@ -16,11 +16,12 @@ $mascota4 = Mascotas::getInstancia();
 
 
 $mascota = Mascotas::getInstancia();
-$mascota ->setNombre("Dakota");
+$mascota->setNombre("Dakota");
 $mascota->setPeso(30);
 $mascota->setRaza("caniche");
-$perros = $mascota -> get(45);
+$perros = $mascota->get(45);
 foreach ($perros as $perro => $value) {
     echo $perro . ": " . $value . "<br>";
 }
-
+?>
+<a href="">Enlace a repositorio</a>

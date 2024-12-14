@@ -16,6 +16,7 @@ $sistemas = ["Linux", "MySql"];
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,39 +29,43 @@ $sistemas = ["Linux", "MySql"];
         }
     </style>
 </head>
+
 <body>
+    <a href="">Enlace a repositorio</a>
+    <h1>Subir fichero</h1>
     <form method="post" action="./uploadFile.php" enctype="multipart/form-data">
         <label for="grupo">Grupos</label>
         <select name="grupo" id="">
-        <?
+            <?
             foreach ($grupos as $grupo => $anio) {
                 echo "<option value ='$grupo'>$anio</option>";
             }
-        ?>
+            ?>
         </select>
 
         <label for="curso">Curso</label>
         <select name="curso" id="">
-        <?
-            foreach ($cursos as $curso ) {
+            <?
+            foreach ($cursos as $curso) {
                 echo "<option value ='$curso'>$curso</option>";
             }
-        ?>
+            ?>
         </select>
 
         <label for="sistema">Sistema</label>
         <select name="sistema" id="">
-        <?php
+            <?php
             foreach ($sistemas as $sistema) {
                 echo "<option value ='$sistema'>$sistema</option>";
             }
-        ?>
+            ?>
         </select>
 
         <input type="file" name="file" id="file">
 
         <input type="submit" value="Enviar" name="submit">
     </form>
-    
+
 </body>
+
 </html>

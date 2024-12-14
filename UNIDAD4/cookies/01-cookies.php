@@ -41,6 +41,7 @@ if(isset($_POST["destruirCookie"])){
     <title>Document</title>
 </head>
 <body>
+    <a href="">Enlace a repositorio</a>
     <?php
     if(!$cookie){ ?>
     <form action="" method="post">

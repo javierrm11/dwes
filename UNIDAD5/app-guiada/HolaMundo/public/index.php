@@ -7,29 +7,29 @@ use App\Controllers\IndexController;
 
 $router = new Router();
 $router->add(array(
-    'name'=>'home',
-    'path'=>'/^\/$/',
-    'action'=>[IndexController::class, 'IndexAction']
+    'name' => 'home',
+    'path' => '/^\/$/',
+    'action' => [IndexController::class, 'IndexAction']
 ));
 
 $router->add(array(
-    'name'=>'saludo',
+    'name' => 'saludo',
     'path' => '/([a-zA-ZáéíóúÁÉÍÓÚñÑ0-9_-]+)$/',
-    'action'=>[IndexController::class, 'MessajeAction']
+    'action' => [IndexController::class, 'MessajeAction']
 ));
 
 $router->add(array(
-    'name'=>'numeros',
+    'name' => 'numeros',
     'path' => '/^\/numeros\/$/',
-    'action'=>[IndexController::class, 'NumberParAction']
+    'action' => [IndexController::class, 'NumberParAction']
 ));
 
 $router->add(array(
-    'name'=>'pares',
+    'name' => 'pares',
     'path' => '/^\/numeros\/(\d+)$/',
-    'action'=>[IndexController::class, 'NumberParesAction']
+    'action' => [IndexController::class, 'NumberParesAction']
 ));
-$request = str_replace(DIRBASEURL,'',$_SERVER['REQUEST_URI']);
+$request = str_replace(DIRBASEURL, '', $_SERVER['REQUEST_URI']);
 
 $route = $router->match($request);
 
@@ -38,9 +38,10 @@ if ($route) {
     $actionName = $route['action'][1];
     $controller = new $controllerName;
     $controller->$actionName($request);
-}else{
+} else {
     echo "No rute";
     var_dump($route);
 }
 
 ?>
+<a href="">Enlace a repositorio</a>

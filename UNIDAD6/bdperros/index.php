@@ -34,6 +34,7 @@ if(isset($_POST["inicioSesion"])){
     <title>Document</title>
 </head>
 <body>
+    <a href="">Enlace a repositorio</a>
     <header>
         <h1>Gestión de mascotas</h1>
         <div>

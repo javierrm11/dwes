@@ -25,42 +25,45 @@ for ($i = A_INICIO; $i <= A_FINAL; $i++) {
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Curso</title>
 </head>
+
 <body>
+    <a href="">Enlace a repositorio</a>
 
     <h2>Formulario de Selección de formato y formato</h2>
-    <form action="./form_procesa.php" method="post" enctype="multipart/form-data"> 
-        
+    <form action="./form_procesa.php" method="post" enctype="multipart/form-data">
+
         <!--Seleccionar grupo-->
         <label for="grupo">Selecciona el grupo:</label>
         <select name="grupo" id="grupo" required>
-        <?php
+            <?php
             foreach ($grupos as $grupo) {
                 echo "<option value=\"$grupo\">$grupo</option>";
             }
-        ?>
+            ?>
         </select>
         <br><br>
 
         <!--Seleccionar formato-->
         <label for="formato">Selecciona el formato:</label>
         <select name="formato" id="formato" required>
-        <?php
+            <?php
             foreach ($formato as $formato) {
                 echo "<option value=\"$formato\">$formato</option>";
             }
-        ?>
+            ?>
         </select>
         <br><br>
 
         <!--Seleccionar curso -->
         <label for="curso">Selecciona el curso:</label>
         <select name="curso" id="curso" required>
-        <?php foreach ($av_array as $curso): ?>
+            <?php foreach ($av_array as $curso): ?>
                 <option value="<?php echo htmlspecialchars($curso[0]); ?>" <?php echo $curso[1] ? 'selected' : ''; ?>>
                     <?php echo htmlspecialchars($curso[0]); ?>
                 </option>
@@ -68,9 +71,10 @@ for ($i = A_INICIO; $i <= A_FINAL; $i++) {
         </select>
         <br><br>
 
-        <input type="file" name="file" id="file" > <br>
+        <input type="file" name="file" id="file"> <br>
         <input type="submit" value="Enviar" name="enviar">
     </form>
 
 </body>
+
 </html>

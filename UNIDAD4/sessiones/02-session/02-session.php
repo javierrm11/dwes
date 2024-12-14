@@ -91,6 +91,7 @@ if(isset($_POST["volver"])){
     </style>
 </head>
 <body>
+    <a href="">Enlace a repositorio</a>
     <h1>Puzles Infantiles</h1>
     <h2><?php echo $_SESSION["figuras"][1] ?></h2>
     <div class="pieza">

@@ -6,7 +6,7 @@ require_once "01-clase.php";
 // Creamos una persona
 $persona = new Persona("Javier", "Ruiz", "Molero");
 
-$persona -> saludo();
-echo $persona -> nombre();
+$persona->saludo();
+echo $persona->nombre();
 ?>
-
+<a href="">Enlace a repositorio</a>

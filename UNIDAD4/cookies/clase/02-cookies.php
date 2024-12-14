@@ -55,6 +55,7 @@ if($dCookies){
     <title>Document</title>
 </head>
 <body>
+    <a href="">Enlace a repositorio</a>
     <h1>Registro</h1>
     <?php
     // Mostrar datos
